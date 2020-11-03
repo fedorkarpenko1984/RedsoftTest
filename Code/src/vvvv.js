@@ -1,0 +1,40 @@
+<app-picture
+:in-basket=this.$store.state.inBasket[0]
+:pic-id=this.$store.state.picId[0]
+:pathToImg=this.$store.state.paths[0]
+:name=this.$store.state.names[0]
+:artist=this.$store.state.artists[0]
+:old-price=this.$store.state.oldPrice[0]
+:new-price=this.$store.state.newPrice[0]
+  ></app-picture>
+
+  <app-picture
+:in-basket=this.$store.state.inBasket[1]
+:pic-id=this.$store.state.picId[1]
+:pathToImg=this.$store.state.paths[1]
+:name=this.$store.state.names[1]
+:artist=this.$store.state.artists[1]
+:old-price=this.$store.state.oldPrice[1]
+:new-price=this.$store.state.newPrice[1]
+  ></app-picture>
+
+  <app-picture
+:in-basket=this.$store.state.inBasket[2]
+:pic-id=this.$store.state.picId[2]
+:pathToImg=this.$store.state.paths[2]
+:name=this.$store.state.names[2]
+:artist=this.$store.state.artists[2]
+:old-price=this.$store.state.oldPrice[2]
+:new-price=this.$store.state.newPrice[2]
+  ></app-picture>
+
+  <app-picture
+:in-basket=this.$store.state.inBasket[3]
+:pic-id=this.$store.state.picId[3]
+:pathToImg=this.$store.state.paths[3]
+:name=this.$store.state.names[3]
+:artist=this.$store.state.artists[3]
+:old-price=this.$store.state.oldPrice[3]
+:new-price=this.$store.state.newPrice[3]
+:sold=this.$store.state.sold[3]
+  ></app-picture>
